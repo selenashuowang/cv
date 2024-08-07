@@ -9,7 +9,7 @@ If you possess ANY of the following qualifications, I strongly encourage you to 
 1. Skilled in programming and/or statistical method development.  
 
 
-If you are interested in joining my lab, please [email me](mailto:selewang@iu.edu) the following documents with the subject “Prospective student for SWLab Lab”:  
+If you are interested in joining my lab, please [email me](mailto:selewang@iu.edu) the following documents with the subject “Prospective student for SWLab”:  
 
 1. Your CV
 1. A brief description of your background and interest
