@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap');
+
+/* Unify text font across body, headings, nav, and footer */
+:root {
+  --md-text-font: "DM Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --md-code-font-family: "DM Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --md-typeset-a-color: #3f51b5;
+}
+
+.md-nav {
+  font-family: var(--md-text-font);
+}
+
+/* Consistent, subtle link styling */
+.md-typeset a {
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+/* Soften heading weight without changing sizes or layout */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Header: align font and spacing with the new font (no layout change) */
+.md-header__topic {
+  font-weight: 500;
+}
+
+.md-tabs__link {
+  letter-spacing: 0.01em;
+}
+
+/* Original layout helpers */
 .box {
   width: 100%;
 }
